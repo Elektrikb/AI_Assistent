@@ -1,0 +1,1084 @@
+{
+  "f3da1037-598a-4307-8f0e-2582b69370d1": {
+    "created_at": "2025-11-22T17:19:18.137946",
+    "updated_at": "2025-11-22T17:19:18.137950",
+    "conversation_history": [],
+    "total_reward": 0.0,
+    "interaction_count": 0
+  },
+  "159c7199-b694-433f-9750-1ad245e25495": {
+    "created_at": "2025-11-22T17:19:20.221683",
+    "updated_at": "2025-11-22T17:19:20.221688",
+    "conversation_history": [],
+    "total_reward": 0.0,
+    "interaction_count": 0
+  },
+  "3bcf5188-2d97-4a0c-a319-abcb378f08d2": {
+    "created_at": "2025-11-22T17:19:23.256095",
+    "updated_at": "2025-11-22T17:19:23.256100",
+    "conversation_history": [],
+    "total_reward": 0.0,
+    "interaction_count": 0
+  },
+  "6190e131-98ab-41f9-979d-2712953a4825": {
+    "created_at": "2025-11-22T17:19:26.290208",
+    "updated_at": "2025-11-22T17:19:26.290211",
+    "conversation_history": [],
+    "total_reward": 0.0,
+    "interaction_count": 0
+  },
+  "ca5fbe85-adb5-4b4d-a313-48839695b2b2": {
+    "created_at": "2025-11-22T17:19:29.339367",
+    "updated_at": "2025-11-22T17:19:29.339371",
+    "conversation_history": [],
+    "total_reward": 0.0,
+    "interaction_count": 0
+  },
+  "9693af4e-d735-4069-93b2-db017d85cab6": {
+    "created_at": "2025-11-22T17:19:32.386508",
+    "updated_at": "2025-11-22T17:19:32.386512",
+    "conversation_history": [],
+    "total_reward": 0.0,
+    "interaction_count": 0
+  },
+  "28581480-338a-4ac3-ac27-f940b375d809": {
+    "created_at": "2025-11-22T17:24:09.303000",
+    "updated_at": "2025-11-22T17:24:15.423551",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:24:09.339629",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T17:24:12.387800",
+        "user_query": "Какие фреймворки для веб-разработки есть в Python?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T17:24:15.423545",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": 0.5,
+    "interaction_count": 3
+  },
+  "10c8cd66-6739-4ee9-9328-ce978b393831": {
+    "created_at": "2025-11-22T17:24:19.487687",
+    "updated_at": "2025-11-22T17:24:19.506032",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:24:19.506026",
+        "user_query": "Как установить PyTorch?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": -0.1,
+    "interaction_count": 1
+  },
+  "92ea5704-6584-4286-8a58-123ca4e66f2d": {
+    "created_at": "2025-11-22T17:24:22.521736",
+    "updated_at": "2025-11-22T17:24:22.539035",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:24:22.539029",
+        "user_query": "Что такое reinforcement learning?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": -0.1,
+    "interaction_count": 1
+  },
+  "285d3c22-37a0-42e7-815f-ae55870dba4f": {
+    "created_at": "2025-11-22T17:24:25.566475",
+    "updated_at": "2025-11-22T17:24:25.587454",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:24:25.587448",
+        "user_query": "Объясните основы компьютерных сетей",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "3b34afc4-ef55-4066-9ef8-db252cd9078e": {
+    "created_at": "2025-11-22T17:24:28.620981",
+    "updated_at": "2025-11-22T17:24:28.640816",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:24:28.640809",
+        "user_query": "Какие базы данных лучше использовать?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": -0.1,
+    "interaction_count": 1
+  },
+  "2038ce6a-674d-4d05-ae5a-f949b1a05b17": {
+    "created_at": "2025-11-22T17:24:31.661847",
+    "updated_at": "2025-11-22T17:24:31.678726",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:24:31.678720",
+        "user_query": "Что такое DevOps?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "9ff73e55-7b4f-4e4b-922e-e02ced660b5b": {
+    "created_at": "2025-11-22T17:31:15.756876",
+    "updated_at": "2025-11-22T17:31:21.857889",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:31:15.775848",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T17:31:18.819875",
+        "user_query": "Какие фреймворки для веб-разработки есть в Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T17:31:21.857881",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/31180/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.8999999999999999,
+    "interaction_count": 3
+  },
+  "84697d13-1ce1-453b-ba67-e475bee5083d": {
+    "created_at": "2025-11-22T17:31:25.909670",
+    "updated_at": "2025-11-22T17:31:25.927256",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:31:25.927251",
+        "user_query": "Как установить PyTorch?",
+        "recommended_article": {
+          "id": 3,
+          "title": "Глубокое обучение с PyTorch",
+          "url": "https://habr.com/ru/articles/312450/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "381f4bc3-ea9f-4b61-b0ff-0df9cb75dad8": {
+    "created_at": "2025-11-22T17:31:28.946538",
+    "updated_at": "2025-11-22T17:31:28.962785",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:31:28.962779",
+        "user_query": "Что такое reinforcement learning?",
+        "recommended_article": {
+          "id": 4,
+          "title": "Reinforcement Learning для начинающих",
+          "url": "https://habr.com/ru/articles/963522/"
+        },
+        "reward": 1.0
+      }
+    ],
+    "total_reward": 1.0,
+    "interaction_count": 1
+  },
+  "5fd347eb-6a1c-484e-aff9-6c1d52cd6b0d": {
+    "created_at": "2025-11-22T17:31:31.989686",
+    "updated_at": "2025-11-22T17:31:32.010873",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:31:32.010865",
+        "user_query": "Объясните основы компьютерных сетей",
+        "recommended_article": {
+          "id": 6,
+          "title": "Введение в компьютерные сети",
+          "url": "https://habr.com/ru/companies/first/articles/755832/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "5793c771-40a1-4f09-9063-722615f5c4f6": {
+    "created_at": "2025-11-22T17:31:35.049292",
+    "updated_at": "2025-11-22T17:31:35.069888",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:31:35.069882",
+        "user_query": "Какие базы данных лучше использовать?",
+        "recommended_article": {
+          "id": 5,
+          "title": "Базы данных и SQL для разработчиков",
+          "url": "https://habr.com/ru/companies/ruvds/articles/909390/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "f50ae65f-3f1f-4ad0-a83e-241fc4b0175b": {
+    "created_at": "2025-11-22T17:31:38.099173",
+    "updated_at": "2025-11-22T17:31:38.121596",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T17:31:38.121590",
+        "user_query": "Что такое DevOps?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "f8b3e3e8-37e9-4483-a4df-d48846d47186": {
+    "created_at": "2025-11-22T18:00:26.478076",
+    "updated_at": "2025-11-22T18:00:32.582855",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:00:26.497771",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:00:29.541800",
+        "user_query": "Какие фреймворки для веб-разработки есть в Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:00:32.582847",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/31180/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.8999999999999999,
+    "interaction_count": 3
+  },
+  "64ef112f-1fb5-441f-8bcf-9e36cf9969b9": {
+    "created_at": "2025-11-22T18:00:36.631816",
+    "updated_at": "2025-11-22T18:00:36.657792",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:00:36.657784",
+        "user_query": "Как установить PyTorch?",
+        "recommended_article": {
+          "id": 3,
+          "title": "Глубокое обучение с PyTorch",
+          "url": "https://habr.com/ru/articles/312450/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "de9ff4ad-93e9-4af2-8fd1-d71d78023e4a": {
+    "created_at": "2025-11-22T18:00:39.681479",
+    "updated_at": "2025-11-22T18:00:39.700151",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:00:39.700144",
+        "user_query": "Что такое reinforcement learning?",
+        "recommended_article": {
+          "id": 4,
+          "title": "Reinforcement Learning для начинающих",
+          "url": "https://habr.com/ru/articles/963522/"
+        },
+        "reward": 1.0
+      }
+    ],
+    "total_reward": 1.0,
+    "interaction_count": 1
+  },
+  "0c9eeb3f-51da-4241-8f78-b94de257ea9a": {
+    "created_at": "2025-11-22T18:00:42.735189",
+    "updated_at": "2025-11-22T18:00:42.757707",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:00:42.757700",
+        "user_query": "Объясните основы компьютерных сетей",
+        "recommended_article": {
+          "id": 6,
+          "title": "Введение в компьютерные сети",
+          "url": "https://habr.com/ru/companies/first/articles/755832/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "8ad7950f-238a-46b9-93c8-3f58ed108e3b": {
+    "created_at": "2025-11-22T18:00:45.804735",
+    "updated_at": "2025-11-22T18:00:45.826928",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:00:45.826921",
+        "user_query": "Какие базы данных лучше использовать?",
+        "recommended_article": {
+          "id": 5,
+          "title": "Базы данных и SQL для разработчиков",
+          "url": "https://habr.com/ru/companies/ruvds/articles/909390/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "85c96acb-8e05-4ade-a656-81e1fd65eb41": {
+    "created_at": "2025-11-22T18:00:48.866602",
+    "updated_at": "2025-11-22T18:00:48.884535",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:00:48.884528",
+        "user_query": "Что такое DevOps?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "72eb19f1-eb86-466b-bfbb-5bd1587cc64f": {
+    "created_at": "2025-11-22T18:00:50.864557",
+    "updated_at": "2025-11-22T18:04:35.532828",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:00:50.884423",
+        "user_query": "Как работает Docker?",
+        "recommended_article": {
+          "id": 9,
+          "title": "Веб-разработка на Django",
+          "url": "https://habr.com/ru/companies/netologyru/articles/967546/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:02:09.800471",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:02:16.101430",
+        "user_query": "Получить дополнительную статью по теме",
+        "recommended_article": {
+          "id": 6,
+          "title": "Введение в компьютерные сети",
+          "url": "https://habr.com/ru/companies/first/articles/755832/"
+        },
+        "reward": -0.1
+      },
+      {
+        "timestamp": "2025-11-22T18:02:50.837507",
+        "user_query": "Оценить полезность ответа",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": -0.1
+      },
+      {
+        "timestamp": "2025-11-22T18:03:02.272706",
+        "user_query": "Пока",
+        "recommended_article": {
+          "id": 9,
+          "title": "Веб-разработка на Django",
+          "url": "https://habr.com/ru/companies/netologyru/articles/967546/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:03:12.227733",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/31180/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:04:35.532822",
+        "user_query": "Рекомендательные системы на практике",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 1.3,
+    "interaction_count": 7
+  },
+  "80f06687-625c-4475-b35d-7f7cb1cba63d": {
+    "created_at": "2025-11-22T18:37:33.024347",
+    "updated_at": "2025-11-22T18:37:41.370070",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:37:33.047531",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:37:39.201566",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/31180/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:37:41.370063",
+        "user_query": "Как работает Docker?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/483202/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.8999999999999999,
+    "interaction_count": 3
+  },
+  "1ce09778-af14-4747-8d46-1887dd9c2a6a": {
+    "created_at": "2025-11-22T18:42:43.236947",
+    "updated_at": "2025-11-22T18:42:45.453956",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:42:43.258498",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:42:44.066580",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": -0.1
+      },
+      {
+        "timestamp": "2025-11-22T18:42:45.453950",
+        "user_query": "Как работает Docker?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": 0.09999999999999998,
+    "interaction_count": 3
+  },
+  "5b2b1ed0-34dc-4e32-8a9e-3f7f3a17ea27": {
+    "created_at": "2025-11-22T18:43:31.337272",
+    "updated_at": "2025-11-22T18:43:33.777799",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:43:31.359307",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:43:32.091681",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/31180/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:43:33.777793",
+        "user_query": "Как работает Docker?",
+        "recommended_article": {
+          "id": 2,
+          "title": "Рекомендательные системы на практике",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": 0.5,
+    "interaction_count": 3
+  },
+  "da1fe7c3-ebc6-4fda-8792-29224d3aa756": {
+    "created_at": "2025-11-22T18:55:38.019179",
+    "updated_at": "2025-11-22T18:55:44.131026",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:55:38.038222",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:55:41.078581",
+        "user_query": "Какие фреймворки для веб-разработки есть в Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:55:44.131019",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.8999999999999999,
+    "interaction_count": 3
+  },
+  "5103c714-ef37-4f77-b2b4-5cb5fe6ef781": {
+    "created_at": "2025-11-22T18:55:48.209365",
+    "updated_at": "2025-11-22T18:55:48.227434",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:55:48.227428",
+        "user_query": "Как установить PyTorch?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "2eb439f8-4672-4b3a-87de-54ad88f8e9fd": {
+    "created_at": "2025-11-22T18:55:51.252110",
+    "updated_at": "2025-11-22T18:55:51.269142",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:55:51.269136",
+        "user_query": "Что такое reinforcement learning?",
+        "recommended_article": {
+          "id": 2,
+          "title": "Рекомендательные системы на практике",
+          "url": "https://habr.com/ru/companies/lanit/articles/420499/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "242166de-d040-4f11-9bb4-6ebfd56a9c3b": {
+    "created_at": "2025-11-22T18:55:54.309025",
+    "updated_at": "2025-11-22T18:55:54.330178",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:55:54.330172",
+        "user_query": "Объясните основы компьютерных сетей",
+        "recommended_article": {
+          "id": 6,
+          "title": "Введение в компьютерные сети",
+          "url": "https://habr.com/ru/articles/307252/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "2cceb6b5-3102-496b-849b-3ace91419517": {
+    "created_at": "2025-11-22T18:55:57.355096",
+    "updated_at": "2025-11-22T18:55:57.375860",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:55:57.375854",
+        "user_query": "Какие базы данных лучше использовать?",
+        "recommended_article": {
+          "id": 7,
+          "title": "Основы алгоритмов и структур данных",
+          "url": "https://habr.com/ru/articles/875200/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "94397601-0178-4a5e-b901-821101c56996": {
+    "created_at": "2025-11-22T18:56:00.400638",
+    "updated_at": "2025-11-22T18:56:00.418732",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:56:00.418725",
+        "user_query": "Что такое DevOps?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/303050/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "7abd7883-8de1-4caf-8415-5f17a5349277": {
+    "created_at": "2025-11-22T18:56:18.811346",
+    "updated_at": "2025-11-22T18:56:30.338907",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:56:18.832799",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:56:24.442716",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:56:30.338900",
+        "user_query": "Как работает Docker?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": 0.5,
+    "interaction_count": 3
+  },
+  "5bd3618a-7319-4ecf-8a43-bb960c4b2fb7": {
+    "created_at": "2025-11-22T18:56:35.238702",
+    "updated_at": "2025-11-22T18:56:35.260504",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:56:35.260498",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/articles/490754/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "a95fc8cc-ae9d-416b-aa94-8952f1864b24": {
+    "created_at": "2025-11-22T18:58:08.088767",
+    "updated_at": "2025-11-22T18:58:16.235907",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:58:08.112239",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/companies/edison/articles/474212/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:58:12.612713",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:58:16.235900",
+        "user_query": "Как работает Docker?",
+        "recommended_article": {
+          "id": 2,
+          "title": "Рекомендательные системы на практике",
+          "url": "https://habr.com/ru/companies/lanit/articles/420499/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": 0.5,
+    "interaction_count": 3
+  },
+  "3e9628f7-e274-4d2f-a0f2-c7cc66abab41": {
+    "created_at": "2025-11-22T18:59:03.443373",
+    "updated_at": "2025-11-22T18:59:09.557329",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:59:03.463531",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/companies/edison/articles/474212/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:59:06.522620",
+        "user_query": "Какие фреймворки для веб-разработки есть в Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/companies/edison/articles/474212/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T18:59:09.557323",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.8999999999999999,
+    "interaction_count": 3
+  },
+  "04cdb8c9-ffbc-43de-a1f4-c65ad916d08a": {
+    "created_at": "2025-11-22T18:59:13.617060",
+    "updated_at": "2025-11-22T18:59:13.634773",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:59:13.634768",
+        "user_query": "Как установить PyTorch?",
+        "recommended_article": {
+          "id": 3,
+          "title": "Глубокое обучение с PyTorch",
+          "url": "https://habr.com/ru/articles/334380/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "6835879a-7810-48c2-88b7-e5b2da12fca8": {
+    "created_at": "2025-11-22T18:59:16.663764",
+    "updated_at": "2025-11-22T18:59:16.680821",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:59:16.680815",
+        "user_query": "Что такое reinforcement learning?",
+        "recommended_article": {
+          "id": 2,
+          "title": "Рекомендательные системы на практике",
+          "url": "https://habr.com/ru/companies/lanit/articles/420499/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "e630f2ef-7acd-4fa2-9041-91205ebaf50c": {
+    "created_at": "2025-11-22T18:59:19.711904",
+    "updated_at": "2025-11-22T18:59:19.732603",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:59:19.732595",
+        "user_query": "Объясните основы компьютерных сетей",
+        "recommended_article": {
+          "id": 6,
+          "title": "Введение в компьютерные сети",
+          "url": "https://habr.com/ru/articles/307252/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "873cc520-f4f9-4eb3-8169-74edc451551a": {
+    "created_at": "2025-11-22T18:59:22.763182",
+    "updated_at": "2025-11-22T18:59:22.783046",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:59:22.783041",
+        "user_query": "Какие базы данных лучше использовать?",
+        "recommended_article": {
+          "id": 5,
+          "title": "Базы данных и SQL для разработчиков",
+          "url": "https://habr.com/ru/companies/first/articles/755832/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "57bbf5a7-5f92-411a-b96c-bc195b96b87a": {
+    "created_at": "2025-11-22T18:59:25.807242",
+    "updated_at": "2025-11-22T18:59:25.827070",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T18:59:25.827063",
+        "user_query": "Что такое DevOps?",
+        "recommended_article": {
+          "id": 8,
+          "title": "DevOps и непрерывная интеграция",
+          "url": "https://habr.com/ru/articles/303050/"
+        },
+        "reward": 0.3
+      }
+    ],
+    "total_reward": 0.3,
+    "interaction_count": 1
+  },
+  "99c73106-73ae-4034-a46b-b9c16dc55294": {
+    "created_at": "2025-11-22T19:31:02.671814",
+    "updated_at": "2025-11-22T19:31:09.014652",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T19:31:02.711761",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/companies/edison/articles/474212/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T19:31:07.343426",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T19:31:09.014644",
+        "user_query": "Как работает Docker?",
+        "recommended_article": {
+          "id": 7,
+          "title": "Основы алгоритмов и структур данных",
+          "url": "https://habr.com/ru/articles/875200/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": 0.5,
+    "interaction_count": 3
+  },
+  "fdcf66b7-c4e2-4ec3-90c6-45d20fc0a6fb": {
+    "created_at": "2025-11-22T20:03:27.684737",
+    "updated_at": "2025-11-22T20:04:37.408171",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-22T20:03:27.710795",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/companies/edison/articles/474212/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T20:04:07.769296",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-22T20:04:37.408164",
+        "user_query": "Как работает Docker?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/companies/edison/articles/474212/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": 0.5,
+    "interaction_count": 3
+  },
+  "a09ab628-b799-46eb-961f-4f1bead1a922": {
+    "created_at": "2025-11-23T22:45:12.076813",
+    "updated_at": "2025-11-23T22:45:14.867807",
+    "conversation_history": [
+      {
+        "timestamp": "2025-11-23T22:45:12.100306",
+        "user_query": "Как начать программировать на Python?",
+        "recommended_article": {
+          "id": 0,
+          "title": "Как начать программировать на Python",
+          "url": "https://habr.com/ru/companies/edison/articles/474212/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-23T22:45:13.205512",
+        "user_query": "Что такое машинное обучение?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": 0.3
+      },
+      {
+        "timestamp": "2025-11-23T22:45:14.867801",
+        "user_query": "Как работает Docker?",
+        "recommended_article": {
+          "id": 1,
+          "title": "Основы машинного обучения",
+          "url": "https://habr.com/ru/articles/448892/"
+        },
+        "reward": -0.1
+      }
+    ],
+    "total_reward": 0.5,
+    "interaction_count": 3
+  }
+}

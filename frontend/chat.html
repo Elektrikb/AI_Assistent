@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Консультант - Чат</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .chat-container {
+            width: 90%;
+            max-width: 800px;
+            height: 90vh;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background: #4f46e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .chat-header h1 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .chat-header p {
+            opacity: 0.9;
+            font-size: 0.9em;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: #f8fafc;
+        }
+
+        .message {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message.bot {
+            justify-content: flex-start;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 15px;
+            border-radius: 18px;
+            position: relative;
+        }
+
+        .user .message-content {
+            background: #4f46e5;
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+
+        .bot .message-content {
+            background: white;
+            color: #333;
+            border: 1px solid #e2e8f0;
+            border-bottom-left-radius: 5px;
+        }
+
+        .message-time {
+            font-size: 0.7em;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+
+        .article-link {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #f1f5f9;
+            border-radius: 10px;
+            border-left: 4px solid #4f46e5;
+            text-decoration: none;
+            color: #4f46e5;
+            transition: all 0.3s;
+        }
+
+        .article-link:hover {
+            background: #e2e8f0;
+            transform: translateX(5px);
+        }
+
+        .chat-input-container {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .chat-input-wrapper {
+            display: flex;
+            gap: 10px;
+        }
+
+        #chat-input {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 15px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        #chat-input:focus {
+            border-color: #4f46e5;
+        }
+
+        #send-button {
+            padding: 15px 25px;
+            background: #4f46e5;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        #send-button:hover {
+            background: #4338ca;
+        }
+
+        #send-button:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+
+        .typing-indicator {
+            display: none;
+            padding: 15px;
+            color: #6b7280;
+            font-style: italic;
+        }
+
+        .suggested-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .suggestion-chip {
+            padding: 8px 16px;
+            background: #f1f5f9;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            font-size: 0.9em;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .suggestion-chip:hover {
+            background: #4f46e5;
+            color: white;
+        }
+
+        .confidence-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #dcfce7;
+            color: #166534;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🤖 AI Консультант</h1>
+            <p>Задайте вопрос по программированию и получите рекомендацию статьи</p>
+        </div>
+
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot">
+                <div class="message-content">
+                    <strong>AI Консультант:</strong>
+                    <p>Привет! Я AI-консультант, который поможет вам найти подходящие статьи по программированию, машинному обучению и IT.</p>
+                    <p>Задайте ваш вопрос, и я порекомендую наиболее релевантную статью с подробным объяснением!</p>
+                    <div class="suggested-actions">
+                        <div class="suggestion-chip" onclick="sendSuggestion('Как начать программировать на Python?')">
+                            Как начать программировать на Python?
+                        </div>
+                        <div class="suggestion-chip" onclick="sendSuggestion('Что такое машинное обучение?')">
+                            Что такое машинное обучение?
+                        </div>
+                        <div class="suggestion-chip" onclick="sendSuggestion('Как работает Docker?')">
+                            Как работает Docker?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="typing-indicator" id="typing-indicator">
+            AI Консультант печатает...
+        </div>
+
+        <div class="chat-input-container">
+            <div class="chat-input-wrapper">
+                <input type="text" id="chat-input" placeholder="Введите ваш вопрос..." autocomplete="off">
+                <button id="send-button" onclick="sendMessage()">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'http://localhost:8000';
+        let currentSessionId = null;
+
+        // Отправка сообщения
+        async function sendMessage() {
+            const input = document.getElementById('chat-input');
+            const message = input.value.trim();
+            
+            if (!message) return;
+
+            // Добавляем сообщение пользователя в чат
+            addMessage(message, 'user');
+            input.value = '';
+            
+            // Показываем индикатор набора
+            showTypingIndicator();
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/ask`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        question: message,
+                        user_id: currentSessionId
+                    })
+                });
+
+                const data = await response.json();
+                
+                // Сохраняем session_id для последующих запросов
+                if (data.session_id) {
+                    currentSessionId = data.session_id;
+                }
+                
+                // Добавляем ответ бота
+                addBotMessage(data);
+                
+            } catch (error) {
+                console.error('Error:', error);
+                addMessage('Извините, произошла ошибка. Попробуйте еще раз.', 'bot');
+            } finally {
+                hideTypingIndicator();
+            }
+        }
+
+        // Отправка предложенного вопроса
+        function sendSuggestion(question) {
+            document.getElementById('chat-input').value = question;
+            sendMessage();
+        }
+
+        // Добавление сообщения пользователя
+        function addMessage(message, sender) {
+            const messagesContainer = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            
+            const time = new Date().toLocaleTimeString('ru-RU', { 
+                hour: '2-digit', 
+                minute: '2-digit' 
+            });
+            
+            messageDiv.innerHTML = `
+                <div class="message-content">
+                    <div>${message}</div>
+                    <div class="message-time">${time}</div>
+                </div>
+            `;
+            
+            messagesContainer.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        // Добавление сообщения бота
+        function addBotMessage(data) {
+            const messagesContainer = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message bot';
+            
+            const time = new Date().toLocaleTimeString('ru-RU', { 
+                hour: '2-digit', 
+                minute: '2-digit' 
+            });
+            
+            let articleHtml = '';
+            if (data.recommended_article) {
+                articleHtml = `
+                    <a href="${data.recommended_article.url}" target="_blank" class="article-link">
+                        📚 <strong>${data.recommended_article.title}</strong>
+                        <span class="confidence-badge">Уверенность: ${(data.confidence * 100).toFixed(0)}%</span>
+                    </a>
+                `;
+            }
+            
+            let actionsHtml = '';
+            if (data.suggested_actions && data.suggested_actions.length > 0) {
+                actionsHtml = `
+                    <div class="suggested-actions">
+                        ${data.suggested_actions.map(action => 
+                            `<div class="suggestion-chip" onclick="sendSuggestion('${action}')">${action}</div>`
+                        ).join('')}
+                    </div>
+                `;
+            }
+            
+            messageDiv.innerHTML = `
+                <div class="message-content">
+                    <strong>AI Консультант:</strong>
+                    <div>${data.answer}</div>
+                    ${articleHtml}
+                    ${actionsHtml}
+                    <div class="message-time">${time}</div>
+                </div>
+            `;
+            
+            messagesContainer.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        // Показать индикатор набора
+        function showTypingIndicator() {
+            document.getElementById('typing-indicator').style.display = 'block';
+            scrollToBottom();
+        }
+
+        // Скрыть индикатор набора
+        function hideTypingIndicator() {
+            document.getElementById('typing-indicator').style.display = 'none';
+        }
+
+        // Прокрутка вниз
+        function scrollToBottom() {
+            const messagesContainer = document.getElementById('chat-messages');
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // Отправка по Enter
+        document.getElementById('chat-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        // Фокус на поле ввода при загрузке
+        document.getElementById('chat-input').focus();
+    </script>
+</body>
+</html>

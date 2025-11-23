@@ -1,0 +1,121 @@
+[
+  {
+    "id": 0,
+    "title": "Как начать программировать на Python",
+    "content": "Python - отличный язык для начала программирования. Установите Python с официального сайта, выберите среду разработки seperti PyCharm или VS Code. Изучите базовые конструкции: переменные, циклы, условия. Практикуйтесь на небольших проектах и изучайте стандартную библиотеку.",
+    "url": "https://habr.com/ru/companies/edison/articles/474212/",
+    "tags": [
+      "python",
+      "programming",
+      "beginner",
+      "установка"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Основы машинного обучения",
+    "content": "Машинное обучение - это подраздел искусственного интеллекта. Изучите основные алгоритмы: линейная регрессия, логистическая регрессия, деревья решений. Важно понимать разницу между обучением с учителем и без учителя. Практикуйтесь на датасетах из Kaggle.",
+    "url": "https://habr.com/ru/articles/448892/",
+    "tags": [
+      "machine learning",
+      "ai",
+      "algorithms",
+      "обучение"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Рекомендательные системы на практике",
+    "content": "Рекомендательные системы помогают пользователям находить релевантный контент. Рассмотрим коллаборативную фильтрацию, контентные методы и гибридные подходы. Важные метрики: precision, recall, NDCG. Современные системы используют deep learning.",
+    "url": "https://habr.com/ru/companies/lanit/articles/420499/",
+    "tags": [
+      "recommendation systems",
+      "collaborative filtering",
+      "algorithms"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Глубокое обучение с PyTorch",
+    "content": "PyTorch - популярная библиотека для глубокого обучения. Узнайте как создавать нейронные сети, работать с тензорами и использовать GPU для ускорения. Изучите основные модули: torch.nn, torch.optim, torch.utils.data. Начните с простых сетей и постепенно переходите к сложным архитектурам.",
+    "url": "https://habr.com/ru/articles/334380/",
+    "tags": [
+      "pytorch",
+      "deep learning",
+      "neural networks",
+      "gpu"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Reinforcement Learning для начинающих",
+    "content": "Обучение с подкреплением - мощный подход в ML. Агент учится через взаимодействие со средой, получая награды за правильные действия. Основные концепции: policy, value function, Q-learning. Популярные алгоритмы: DQN, PPO, A3C.",
+    "url": "https://habr.com/ru/articles/919556/",
+    "tags": [
+      "reinforcement learning",
+      "rl",
+      "machine learning",
+      "q-learning"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Базы данных и SQL для разработчиков",
+    "content": "SQL - язык для работы с реляционными базами данных. Изучите основные команды: SELECT, INSERT, UPDATE, DELETE. Понимайте нормализацию, индексы и транзакции. Популярные СУБД: PostgreSQL, MySQL, SQLite.",
+    "url": "https://habr.com/ru/companies/first/articles/755832/",
+    "tags": [
+      "sql",
+      "databases",
+      "postgresql",
+      "нормализация"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Введение в компьютерные сети",
+    "content": "Компьютерные сети - основа современного интернета. Изучите модель OSI, TCP/IP протоколы, IP адресацию и маршрутизацию. Важные концепции: DNS, HTTP, SSL/TLS. Понимание сетей необходимо для веб-разработки.",
+    "url": "https://habr.com/ru/articles/307252/",
+    "tags": [
+      "networking",
+      "tcp/ip",
+      "http",
+      "dns"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Основы алгоритмов и структур данных",
+    "content": "Алгоритмы и структуры данных - фундамент программирования. Изучите массивы, списки, деревья, хэш-таблицы. Важные алгоритмы: сортировка, поиск, обход графов. Сложность алгоритмов измеряется в O-нотации.",
+    "url": "https://habr.com/ru/articles/875200/",
+    "tags": [
+      "algorithms",
+      "data structures",
+      "sorting",
+      "big o"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "DevOps и непрерывная интеграция",
+    "content": "DevOps объединяет разработку и эксплуатацию. Изучите CI/CD, контейнеризацию с Docker, оркестрацию с Kubernetes. Инфраструктура как код с Terraform. Мониторинг и логирование для надежности систем.",
+    "url": "https://habr.com/ru/articles/303050/",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "ci/cd"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Веб-разработка на Django",
+    "content": "Django - мощный фреймворк для веб-разработки на Python. Изучите MVC архитектуру, ORM для работы с базами данных, шаблоны и формы. Django REST Framework для создания API. Деployment на серверах.",
+    "url": "https://habr.com/ru/articles/240463/",
+    "tags": [
+      "django",
+      "web development",
+      "python",
+      "api"
+    ]
+  }
+]

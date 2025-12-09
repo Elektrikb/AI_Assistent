@@ -109,10 +109,10 @@ python test_system.py
 Ошибки отправляются в консоль браузера
 
 ## 10. Дополнительные ресурсы и ссылки
-###[FastAPI Documentation](https://fastapi-tutorial.readthedocs.io/en/latest/)
-###[MDN Web Docs (HTML/CSS/JS)](https://developer.mozilla.org/ru/)
-###[JWT Introduction](https://www.jwt.io/introduction#what-is-json-web-token)
-###[Argon2 for Password Hashing](https://argon2-cffi.readthedocs.io/en/stable/howto.html)
+### [FastAPI Documentation](https://fastapi-tutorial.readthedocs.io/en/latest/)
+### [MDN Web Docs (HTML/CSS/JS)](https://developer.mozilla.org/ru/)
+### [JWT Introduction](https://www.jwt.io/introduction#what-is-json-web-token)
+### [Argon2 for Password Hashing](https://argon2-cffi.readthedocs.io/en/stable/howto.html)
 
 ## 11. Версионирование и изменения
 
@@ -131,6 +131,7 @@ python test_system.py
 Общая база данных (SQLite/PostgreSQL)
 Общая авторизация
 Обмен статьями и вопросами
+
 
 
 
